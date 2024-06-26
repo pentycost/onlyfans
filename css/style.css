@@ -1,0 +1,260 @@
+
+.team .member {
+position: relative;
+box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+padding: 30px;
+border-radius: 5px;
+background: #fff;
+}
+
+.team .member .teampic {
+overflow: hidden;
+width: 180px;
+border-radius: 50%;
+}
+
+/* .team .member .teampic img {
+transition: ease-in-out 0.3s;
+} */
+
+
+.team .member .member-info {
+padding-left: 30px;
+}
+
+.team .member h4 {
+font-weight: 700;
+margin-bottom: 5px;
+font-size: 20px;
+color: tomato;
+}
+
+.team .member span {
+display: block;
+font-size: 15px;
+padding-bottom: 10px;
+position: relative;
+font-weight: 500;
+}
+
+.team .member span::after {
+content: "";
+position: absolute;
+display: block;
+width: 50px;
+height: 2px;
+background: black;
+bottom: 0;
+left: 0;
+}
+
+.team .member p {
+margin: 10px 0 0 0;
+font-size: 14px;
+}
+
+.team .member .social {
+margin-top: 12px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+.team .member .social a {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 32px;
+height: 32px;
+background: #eff2f8;
+}
+
+.team .member .social a i {
+color: tomato;
+font-size: 16px;
+margin: 0 2px;
+}
+
+.team .member .social a:hover {
+background: tomato;
+}
+
+.team .member .social a:hover i {
+color: #fff;
+}
+
+.team .member .social a+a {
+margin-left: 8px;
+}
+
+section {
+padding: 60px 0;
+overflow: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 60px; /* Adjust based on the height of the navbar */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #3b82f6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 60px; /* Fixed height for the navbar */
+}
+
+.navbar .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo {
+    height: 50%;
+    max-height: 50px; /* Adjust as needed */
+}
+
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+input {
+            padding: 10px;
+            width: 200px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .notification {
+            color: red;
+            margin-top: 10px;
+        }
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px; /* Same as the navbar height */
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.content {
+    padding: 20px;
+}
+
+
+.section-title {
+text-align: center;
+padding-bottom: 30px;
+}
+
+.section-title h2 {
+font-size: 32px;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 20px;
+padding-bottom: 20px;
+position: relative;
+color: tomato;
+}
+
+.underline{
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+    margin-top: -30px;
+}
+/* .section-title h2::before {
+content: "";
+position: absolute;
+display: block;
+width: 120px;
+height: 1px;
+background: #ddd;
+bottom: 1px;
+left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+content: "";
+position: absolute;
+display: block;
+width: 40px;
+height: 3px;
+background: #47b2e4;
+bottom: 0;
+left: calc(50% - 20px);
+} */
+
+.section-title p {
+margin-top: 20px;
+}
+
+
+.footer {
+            background-color: #e9f5fc; /* Light blue background color */
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
